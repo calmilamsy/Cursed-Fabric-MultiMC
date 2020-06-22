@@ -1,0 +1,13 @@
+{
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "MMC-displayname": "net.fabricmc.intermediary",
+            "MMC-filename": "b5cee00e-6057-467c-8b65-29573f2a60cf.jar",
+            "MMC-hint": "local",
+            "name": "org.multimc.jarmods:b5cee00e-6057-467c-8b65-29573f2a60cf:1"
+        }
+    ],
+    "name": "Intermediary Mappings (Required)",
+    "uid": "org.multimc.jarmod.b5cee00e-6057-467c-8b65-29573f2a60cf"
+}

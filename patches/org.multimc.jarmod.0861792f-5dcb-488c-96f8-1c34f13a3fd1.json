@@ -1,0 +1,13 @@
+{
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "MMC-displayname": "log4j",
+            "MMC-filename": "0861792f-5dcb-488c-96f8-1c34f13a3fd1.jar",
+            "MMC-hint": "local",
+            "name": "org.multimc.jarmods:0861792f-5dcb-488c-96f8-1c34f13a3fd1:1"
+        }
+    ],
+    "name": "Log4J2 Debug Config (Optional, disabling might help with lag on weaker systems)",
+    "uid": "org.multimc.jarmod.0861792f-5dcb-488c-96f8-1c34f13a3fd1"
+}

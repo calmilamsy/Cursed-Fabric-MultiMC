@@ -1,0 +1,15 @@
+.minecraft/.fabric
+.minecraft/.mixin.out
+.minecraft/bin
+.minecraft/coremods
+.minecraft/logs
+.minecraft/mods
+.minecraft/options.txt
+.minecraft/resourcepacks
+.minecraft/resources
+.minecraft/saves
+.minecraft/screenshots
+.minecraft/server-resource-packs
+.minecraft/stats
+.minecraft/texturepacks
+natives

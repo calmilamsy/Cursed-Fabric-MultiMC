@@ -1,0 +1,103 @@
+{
+    "inheritsFrom": "b1.7.3",
+    "type": "release",
+    "formatVersion": 1,
+	"version": 1,
+    "name": "Cursed Fabric Loader 0.9.2:f0e6365 (Required)",
+    "uid": "net.fabricmc.cursed-fabric-loader",
+    "version": "0.9.2-b1.7.3",
+    "minecraftArguments": "--username ${auth_player_name} --session ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets}",
+	"libraries": [
+        {
+            "name": "org.ow2.asm:asm:8.0",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm-analysis:8.0",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm-commons:8.0",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm-tree:8.0",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm-util:8.0",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "net.fabricmc:sponge-mixin:0.8+build.18",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "net.fabricmc:tiny-mappings-parser:0.2.2.14",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "net.fabricmc:tiny-remapper:0.3.0.70",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "com.google.jimfs:jimfs:1.1",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "net.fabricmc:fabric-loader-sat4j:2.3.5.4",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "com.google.guava:guava:21.0",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "net.fabricmc:fabric-loader:0.9.2+local",
+            "MMC-hint": "local"
+        },
+        {
+            "name": "org.apache.logging.log4j:log4j-api:2.8.1",
+            "url": "https://libraries.minecraft.net/"
+        },
+        {
+            "name": "org.apache.logging.log4j:log4j-core:2.8.1",
+            "url": "https://libraries.minecraft.net/"
+        },
+        {
+            "name": "org.apache.logging.log4j:log4j-core:2.8.1",
+            "url": "https://libraries.minecraft.net/"
+        },
+        {
+            "name": "com.google.code.gson:gson:2.8.6",
+            "url": "https://repo.maven.apache.org/maven2"
+        },
+        {
+            "name": "commons-io:commons-io:2.5",
+            "url": "https://libraries.minecraft.net/"
+        },
+        {
+            "name": "org.apache.commons:commons-lang3:3.5",
+            "url": "https://libraries.minecraft.net/"
+        },
+        {
+            "name": "com.google.guava:guava:21.0",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "net.sf.jopt-simple:jopt-simple:5.0.4",
+            "url": "https://repo.maven.apache.org/maven2"
+        }
+	],
+	"mainClass": "net.fabricmc.loader.launch.knot.KnotClient",
+    "minecraftArguments": "--username ${auth_player_name} --session ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets}",
+    "+traits": [
+        "noapplet"
+    ],
+    "requires": [
+        {
+            "equals": "b1.7.3",
+            "uid": "net.minecraft"
+        }
+    ]
+}

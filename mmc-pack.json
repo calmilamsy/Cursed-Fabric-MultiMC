@@ -1,0 +1,45 @@
+{
+    "components": [
+        {
+            "cachedName": "LWJGL 2",
+            "cachedVersion": "2.9.4-nightly-20150209",
+            "cachedVolatile": true,
+            "dependencyOnly": true,
+            "uid": "org.lwjgl",
+            "version": "2.9.4-nightly-20150209"
+        },
+        {
+            "cachedName": "Minecraft",
+            "cachedRequires": [
+                {
+                    "suggests": "2.9.4-nightly-20150209",
+                    "uid": "org.lwjgl"
+                }
+            ],
+            "cachedVersion": "b1.7.3",
+            "important": true,
+            "uid": "net.minecraft",
+            "version": "b1.7.3"
+        },
+        {
+            "cachedName": "Intermediary Mappings (Required)",
+            "uid": "org.multimc.jarmod.b5cee00e-6057-467c-8b65-29573f2a60cf"
+        },
+        {
+            "cachedName": "Cursed Fabric Loader 0.9.2:f0e6365 (Required)",
+            "cachedRequires": [
+                {
+                    "equals": "b1.7.3",
+                    "uid": "net.minecraft"
+                }
+            ],
+            "cachedVersion": "0.9.2-b1.7.3",
+            "uid": "net.fabricmc.cursed-fabric-loader"
+        },
+        {
+            "cachedName": "Log4J2 Debug Config (Optional, disabling might help with lag on weaker systems)",
+            "uid": "org.multimc.jarmod.0861792f-5dcb-488c-96f8-1c34f13a3fd1"
+        }
+    ],
+    "formatVersion": 1
+}
