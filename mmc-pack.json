@@ -26,7 +26,7 @@
             "uid": "org.multimc.jarmod.b5cee00e-6057-467c-8b65-29573f2a60cf"
         },
         {
-            "cachedName": "Cursed Fabric Loader 0.9.2:f0e6365 (Required)",
+            "cachedName": "Cursed Fabric Loader 0.9.2:453b245 (Required)",
             "cachedRequires": [
                 {
                     "equals": "b1.7.3",

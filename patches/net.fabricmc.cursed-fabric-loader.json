@@ -3,7 +3,7 @@
     "type": "release",
     "formatVersion": 1,
 	"version": 1,
-    "name": "Cursed Fabric Loader 0.9.2:f0e6365 (Required)",
+    "name": "Cursed Fabric Loader 0.9.2:453b245 (Required)",
     "uid": "net.fabricmc.cursed-fabric-loader",
     "version": "0.9.2-b1.7.3",
     "minecraftArguments": "--username ${auth_player_name} --session ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets}",
