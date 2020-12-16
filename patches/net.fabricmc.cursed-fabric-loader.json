@@ -3,29 +3,29 @@
     "type": "release",
     "formatVersion": 1,
 	"version": 1,
-    "name": "Cursed Fabric Loader 0.9.2:453b245 (Required)",
+    "name": "Cursed Fabric Loader 0.10.6:671a1bb (Required)",
     "uid": "net.fabricmc.cursed-fabric-loader",
-    "version": "0.9.2-b1.7.3",
+    "version": "0.10.6-b1.7.3",
     "minecraftArguments": "--username ${auth_player_name} --session ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets}",
 	"libraries": [
         {
-            "name": "org.ow2.asm:asm:8.0",
+            "name": "org.ow2.asm:asm:9.0",
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "org.ow2.asm:asm-analysis:8.0",
+            "name": "org.ow2.asm:asm-analysis:9.0",
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "org.ow2.asm:asm-commons:8.0",
+            "name": "org.ow2.asm:asm-commons:9.0",
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "org.ow2.asm:asm-tree:8.0",
+            "name": "org.ow2.asm:asm-tree:9.0",
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "org.ow2.asm:asm-util:8.0",
+            "name": "org.ow2.asm:asm-util:9.0",
             "url": "https://maven.fabricmc.net/"
         },
         {
@@ -53,15 +53,13 @@
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "net.fabricmc:fabric-loader:0.9.2+local",
+            "name": "net.fabricmc:fabric-loader:0.10.6+local",
             "MMC-hint": "local"
         },
+        {   "name": "net.fabricmc:access-widener:1.0.0",
+            "url": "https://maven.fabricmc.net"
         {
             "name": "org.apache.logging.log4j:log4j-api:2.8.1",
-            "url": "https://libraries.minecraft.net/"
-        },
-        {
-            "name": "org.apache.logging.log4j:log4j-core:2.8.1",
             "url": "https://libraries.minecraft.net/"
         },
         {
@@ -79,10 +77,6 @@
         {
             "name": "org.apache.commons:commons-lang3:3.5",
             "url": "https://libraries.minecraft.net/"
-        },
-        {
-            "name": "com.google.guava:guava:21.0",
-            "url": "https://maven.fabricmc.net/"
         },
         {
             "name": "net.sf.jopt-simple:jopt-simple:5.0.4",
