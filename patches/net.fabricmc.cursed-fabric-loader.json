@@ -58,6 +58,7 @@
         },
         {   "name": "net.fabricmc:access-widener:1.0.0",
             "url": "https://maven.fabricmc.net"
+        },
         {
             "name": "org.apache.logging.log4j:log4j-api:2.8.1",
             "url": "https://libraries.minecraft.net/"
