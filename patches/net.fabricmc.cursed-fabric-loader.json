@@ -3,9 +3,9 @@
     "type": "release",
     "formatVersion": 1,
 	"version": 1,
-    "name": "Cursed Fabric Loader 0.10.6:671a1bb (Required)",
+    "name": "Cursed Fabric Loader 1.0.0 (Required)",
     "uid": "net.fabricmc.cursed-fabric-loader",
-    "version": "0.10.6-b1.7.3",
+    "version": "1.0.0-b1.7.3",
     "minecraftArguments": "--username ${auth_player_name} --session ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets}",
 	"libraries": [
         {
@@ -53,11 +53,12 @@
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "net.fabricmc:fabric-loader:0.10.6+local",
-            "MMC-hint": "local"
+            "name": "com.github.minecraft-cursed-legacy:cursed-fabric-loader:1.0.0",
+            "url": "https://jitpack.io/"
         },
-        {   "name": "net.fabricmc:access-widener:1.0.0",
-            "url": "https://maven.fabricmc.net"
+        {   
+            "name": "net.fabricmc:access-widener:1.0.0",
+            "url": "https://maven.fabricmc.net/"
         },
         {
             "name": "org.apache.logging.log4j:log4j-api:2.8.1",
