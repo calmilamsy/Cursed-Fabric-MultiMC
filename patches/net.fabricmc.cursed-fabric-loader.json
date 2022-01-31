@@ -2,12 +2,10 @@
     "inheritsFrom": "b1.7.3",
     "type": "release",
     "formatVersion": 1,
-	"version": 1,
     "name": "Cursed Fabric Loader 1.0.0 (Required)",
     "uid": "net.fabricmc.cursed-fabric-loader",
     "version": "1.0.0-b1.7.3",
-    "minecraftArguments": "--username ${auth_player_name} --session ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets}",
-	"libraries": [
+    "libraries": [
         {
             "name": "org.ow2.asm:asm:9.0",
             "url": "https://maven.fabricmc.net/"
@@ -56,7 +54,7 @@
             "name": "com.github.minecraft-cursed-legacy:cursed-fabric-loader:1.0.0",
             "url": "https://jitpack.io/"
         },
-        {   
+        {
             "name": "net.fabricmc:access-widener:1.0.0",
             "url": "https://maven.fabricmc.net/"
         },
@@ -84,8 +82,8 @@
             "name": "net.sf.jopt-simple:jopt-simple:5.0.4",
             "url": "https://repo.maven.apache.org/maven2"
         }
-	],
-	"mainClass": "net.fabricmc.loader.launch.knot.KnotClient",
+    ],
+    "mainClass": "net.fabricmc.loader.launch.knot.KnotClient",
     "minecraftArguments": "--username ${auth_player_name} --session ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets}",
     "+traits": [
         "noapplet"
