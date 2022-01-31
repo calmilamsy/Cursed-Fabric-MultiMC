@@ -26,14 +26,14 @@
             "uid": "org.multimc.jarmod.b5cee00e-6057-467c-8b65-29573f2a60cf"
         },
         {
-            "cachedName": "Cursed Fabric Loader 0.10.6:671a1bb (Required)",
+            "cachedName": "Cursed Fabric Loader 1.0.0 (Required)",
             "cachedRequires": [
                 {
                     "equals": "b1.7.3",
                     "uid": "net.minecraft"
                 }
             ],
-            "cachedVersion": "0.10.6-b1.7.3",
+            "cachedVersion": "1.0.0-b1.7.3",
             "uid": "net.fabricmc.cursed-fabric-loader"
         },
         {
