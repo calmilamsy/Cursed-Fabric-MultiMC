@@ -3,33 +3,34 @@
     "type": "release",
     "formatVersion": 1,
 	"version": 1,
-    "name": "Cursed Fabric Loader 1.0.0 (Required)",
+    "name": "Cursed Fabric Loader 91f8c4c-calmedit (Required)",
     "uid": "net.fabricmc.cursed-fabric-loader",
     "version": "1.0.0-b1.7.3",
+	"mainClass": "net.fabricmc.loader.launch.knot.KnotClient",
     "minecraftArguments": "--username ${auth_player_name} --session ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets}",
 	"libraries": [
         {
-            "name": "org.ow2.asm:asm:9.0",
+            "name": "org.ow2.asm:asm:9.2",
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "org.ow2.asm:asm-analysis:9.0",
+            "name": "org.ow2.asm:asm-analysis:9.2",
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "org.ow2.asm:asm-commons:9.0",
+            "name": "org.ow2.asm:asm-commons:9.2",
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "org.ow2.asm:asm-tree:9.0",
+            "name": "org.ow2.asm:asm-tree:9.2",
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "org.ow2.asm:asm-util:9.0",
+            "name": "org.ow2.asm:asm-util:9.2",
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "net.fabricmc:sponge-mixin:0.8+build.18",
+            "name": "net.fabricmc:sponge-mixin:0.11.1+mixin.0.8.5",
             "url": "https://maven.fabricmc.net/"
         },
         {
@@ -49,11 +50,11 @@
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "com.google.guava:guava:21.0",
-            "url": "https://maven.fabricmc.net/"
+            "name": "com.google.guava:guava:31.0.1-jre",
+            "url": "https://repo.maven.apache.org/maven2/"
         },
         {
-            "name": "com.github.minecraft-cursed-legacy:cursed-fabric-loader:1.0.0",
+            "name": "com.github.calmilamsy:cursed-fabric-loader:91f8c4c",
             "url": "https://jitpack.io/"
         },
         {   
@@ -61,12 +62,12 @@
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "org.apache.logging.log4j:log4j-api:2.8.1",
-            "url": "https://libraries.minecraft.net/"
+            "name": "org.apache.logging.log4j:log4j-api:2.17.1",
+            "url": "https://repo.maven.apache.org/maven2"
         },
         {
-            "name": "org.apache.logging.log4j:log4j-core:2.8.1",
-            "url": "https://libraries.minecraft.net/"
+            "name": "org.apache.logging.log4j:log4j-core:2.17.1",
+            "url": "https://repo.maven.apache.org/maven2"
         },
         {
             "name": "com.google.code.gson:gson:2.8.6",
@@ -85,8 +86,6 @@
             "url": "https://repo.maven.apache.org/maven2"
         }
 	],
-	"mainClass": "net.fabricmc.loader.launch.knot.KnotClient",
-    "minecraftArguments": "--username ${auth_player_name} --session ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets}",
     "+traits": [
         "noapplet"
     ],
